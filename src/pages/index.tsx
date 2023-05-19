@@ -1,9 +1,14 @@
+import { AboutMe } from "@/components/AboutMe";
+import { Masthead } from "../components/Masthead";
+import { ContactForm } from "../components/ContactForm";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <button className="btn">click</button>
-    </div>
+    <>
+      <Masthead />
+      <AboutMe />
+      <ContactForm />
+    </>
   );
 };
 
