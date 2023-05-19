@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export const Introduction = () => {
+export const Masthead = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
