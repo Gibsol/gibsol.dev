@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 
 ## License
 
-This project is released under the **Unlicense** license. You are free to use, modify, and distribute the code and the associated assets without any restrictions. Please refer to the [LICENSE](LICENSE) file for more information.
+This project is released under the **Unlicense** license. You are free to use, modify, and distribute the code and the associated assets without any restrictions. Please refer to the [LICENSE](https://github.com/Gibsol/gibsol.dev/blob/main/LICENSE) file for more information.
 
 ## Contributions
 
