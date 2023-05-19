@@ -16,8 +16,10 @@ export const Masthead = () => {
             isVisible ? "opacity-100" : "opacity-0"
           } duration-1000 max-w-md`}
         >
-          <h1 className="text-5xl font-bold">gibsol</h1>
-          <p className="py-6 text-xl">a fullstack developer based in Estonia</p>
+          <h1 className="text-4xl font-bold md:text-5xl">gibsol</h1>
+          <p className="py-6 md:text-xl">
+            a fullstack developer based in Estonia
+          </p>
           <div className="gap-3 btn-group">
             <Link className="btn" href="#about">
               about me
