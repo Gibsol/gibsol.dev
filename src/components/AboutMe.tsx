@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const AboutMe = () => {
   return (
     <section id="about" className="min-h-screen">
@@ -5,7 +7,6 @@ export const AboutMe = () => {
         <h2 className="text-6xl">about me</h2>
         <div className="flex flex-col gap-4">
           <p className="text-6xl font-bold">solid knowledge of</p>
-          {/* todo: gradient text */}
           <ul className="text-6xl font-bold">
             <li className="text-transparent bg-gradient-to-r from-yellow-500 to-gray-600 bg-clip-text">
               JavaScript
@@ -25,7 +26,9 @@ export const AboutMe = () => {
           </ul>
         </div>
         <div className="justify-end gap-3 md:justify-center btn-group">
-          <button className="btn">get in touch</button>
+          <Link href="#contact" className="btn">
+            get in touch
+          </Link>
           <button className="btn">projects</button>
         </div>
       </div>
