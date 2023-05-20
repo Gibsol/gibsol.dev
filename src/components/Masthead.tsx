@@ -9,22 +9,27 @@ export const Masthead = () => {
   }, []);
 
   return (
-    <section id="introduction" className="min-h-screen hero">
-      <div className="text-center hero-content">
-        <div
-          className={`${
-            isVisible ? "opacity-100" : "opacity-0"
-          } duration-1000 max-w-md`}
-        >
-          <h1 className="text-4xl font-bold md:text-5xl">gibsol</h1>
-          <p className="py-6 md:text-xl">
-            a fullstack developer based in Estonia
+    <section id="masthead" className="min-h-screen hero bg-base-200">
+      <div
+        className={`${
+          isVisible ? "opacity-100" : "opacity-0"
+        } duration-1000 hero-content`}
+      >
+        <div className="max-w-md">
+          <h1 className="text-5xl font-bold">gibsol</h1>
+          <p className="py-3 text-xl">
+            a <span className="font-bold">fullstack developer </span> based in
+            Estonia, dedicated to bringing ideas to life through innovative
+            technology solutions.
           </p>
-          <div className="gap-3 btn-group">
-            <Link className="btn" href="#about">
+          <div className="flex gap-3">
+            <Link href="#about" className="btn btn-primary">
               about me
             </Link>
-            <Link className="btn" href="https://github.com/gibsol">
+            <Link href="#contact" className="btn btn-primary">
+              contact me
+            </Link>
+            <Link href="https://github.com/gibsol" className="btn btn-primary">
               github
             </Link>
           </div>
