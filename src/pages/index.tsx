@@ -1,14 +1,14 @@
-import { AboutMe } from "@/components/AboutMe";
-import { Masthead } from "../components/Masthead";
-import { ContactForm } from "../components/ContactForm";
+import { About } from "@/components/About";
+import { Contact } from "@/components/Contact";
+import { Masthead } from "@/components/Masthead";
 
 const Home = () => {
   return (
-    <>
+    <main>
       <Masthead />
-      <AboutMe />
-      <ContactForm />
-    </>
+      <About />
+      <Contact />
+    </main>
   );
 };
 
